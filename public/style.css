@@ -9,6 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
+    gap: 10px;
 }
 
 .top-Navbar {
@@ -22,10 +24,38 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .top-Navbar-elements > img {
     width: 125px;
     height: 50px;
+}
+
+.top-Navbar-elements > input {
+    width: 600px;
+}
+
+.secondary-Navbar {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.secondary-Navbar-elements {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    padding-left: 220px;
+}
+
+.secondary-Navbar-elements > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 400px;
+    padding-left: 0px;
+    font-size: small;
+    gap: 10px;
 }
