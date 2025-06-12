@@ -13,6 +13,8 @@ body {
     gap: 10px;
 }
 
+/* Top Navbar styling */
+
 .top-Navbar {
     display: flex;
     justify-content: center;
@@ -36,6 +38,8 @@ body {
     width: 600px;
 }
 
+/* Secondary Navbar styling */
+
 .secondary-Navbar {
     display: flex;
     justify-content: center;
@@ -58,4 +62,46 @@ body {
     padding-left: 0px;
     font-size: small;
     gap: 10px;
+}
+
+/* Side Navbar styling */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #E9ECEF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+}
+
+/* Side Navbar media queries */
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
