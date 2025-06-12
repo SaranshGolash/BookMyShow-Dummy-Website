@@ -38,6 +38,32 @@ body {
     width: 600px;
 }
 
+.top-Navbar-elements > select {
+    border: none;
+    margin: none;
+    font-size: 14px;
+}
+
+#sign-in {
+    border: none;
+    border-radius: 5px;
+    margin: none;
+    padding: 5px 15px;
+    background-color: rgb(241, 60, 60);
+    color: whitesmoke;
+}
+
+#sidenav-open {
+    border: none;
+    margin: none;
+    font-size: 24px;
+}
+
+#sidenav-open:hover {
+    cursor: pointer;
+    color: rgb(174, 172, 172);
+}
+
 /* Secondary Navbar styling */
 
 .secondary-Navbar {
