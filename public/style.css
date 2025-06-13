@@ -197,3 +197,51 @@ body {
   top: 0;
 }
 
+/* Movie Card styling */
+
+.movie-card {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 1200px;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+.card-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-heading > .card-heading-div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-flow: row nowrap;
+  width: 968px;
+}
+
+.card-heading > .card-heading-div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.card-heading-div2 > a {
+  text-decoration: none;
+  color: rgb(241, 60, 60);
+}
+
+/* Movie-poster styling */
+
+.card {
+  width: 200px;
+  height: 370px;
+}
+
+.card > img {
+  width: 200px;
+  height: 370px;
+}
