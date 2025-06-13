@@ -140,23 +140,25 @@ body {
 /* Carousel styling */
 
  .carousel {
-    position: relative;
-    max-width: 100%;
+    width: 1700px;
+    height: 300px;
     margin: auto;
     overflow: hidden;
  }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 1700px;
+  height: 300px;
   position: relative;
   margin: auto;
 }
 
-/* Image styling for carousel */
+/* Slide container styling */
 
-#carsousel1 {
-    object-fit: cover;
+.mySlides, .numbertext, img{
+  width: 1700px;
+  height: 300px;
 }
 
 /* Next & previous buttons */
@@ -195,17 +197,3 @@ body {
   top: 0;
 }
 
-/* Fading animation */
-.fade {
-    position: relative;
-    animation: myfirst 5s 2;
-    animation-direction:normal;
-}
-
-@keyframes myfirst {
-    0%   {left: 0px; right: 0px;}
-    25%  {left: 200px; right: 0px;}
-    50%  {left: 200px; right: 200px;}
-    75%  {left: 0px; right: 200px;}
-    100% {left: 0px; right: 0px;}
-}
