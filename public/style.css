@@ -36,6 +36,8 @@ body {
 
 .top-Navbar-elements > input {
     width: 600px;
+    border: none;
+    margin: none;
 }
 
 .top-Navbar-elements > select {
