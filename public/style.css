@@ -301,6 +301,14 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.premiere-heading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 10px;
+}
+
 .premiere-heading > img {
   width: 100px;
   height: 50px;
