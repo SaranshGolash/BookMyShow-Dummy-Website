@@ -10,7 +10,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    gap: 15px;
+    gap: 25px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
 }
 
 /* Top Navbar styling */
@@ -208,6 +212,7 @@ body {
   width: 1200px;
   flex-flow: column nowrap;
   gap: 20px;
+  padding-bottom: 70px;
 }
 
 .card-heading {
@@ -272,4 +277,31 @@ body {
   margin: 0px;
   border: 0px;
   gap: 10px;
+}
+
+/* Premiere section styling */
+
+.premiere {
+  background-color: rgb(43, 49, 72);
+  width: 100%;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.premiere-text {
+  color: whitesmoke;
+}
+
+.premiere-text > p {
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.premiere-heading > img {
+  width: 100px;
+  height: 50px;
 }
