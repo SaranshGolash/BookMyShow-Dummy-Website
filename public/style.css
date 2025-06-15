@@ -374,6 +374,7 @@ body {
   align-items: center;
   flex-flow: column nowrap;
   gap: 10px;
+  width: 100%;
 }
 
 .top-footer-part {
@@ -401,4 +402,39 @@ body {
   background-color: rgb(241, 60, 60);
   color: whitesmoke; 
   font-size: 14px;
+}
+
+.below-top-footer-part {
+  background-color: #818181;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.below-top-footer-part > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.below-top-footer-part > div > img {
+  width: 50px;
+  height: 50px;
+}
+
+
+#customer-care {
+  padding-left: 200px;
+}
+
+#ticket-confirmation {
+  padding-right: 60px;
+}
+
+#newsetter {
+  padding-right: 150px;
 }
