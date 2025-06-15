@@ -459,6 +459,14 @@ body {
 .footer-body > div > h5, p, a {
   text-decoration: none;
   color: grey;
+  font-size: 12px;
+  margin: 0px;
+  border: 0px;
+}
+
+.footer-body > div > h5 {
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 
 .footer-body > div > p > a {
