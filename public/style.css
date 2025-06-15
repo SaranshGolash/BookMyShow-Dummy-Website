@@ -438,3 +438,33 @@ body {
 #newsetter {
   padding-right: 150px;
 }
+
+.footer-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.footer-body > div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-flow: column nowrap;
+  width: 55%;
+  padding-bottom: 20px;
+}
+
+.footer-body > div > h5, p, a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-body > div > p > a {
+  color: rgb(123, 121, 121);
+} 
+
+.footer-body > div > p > a:hover {
+  color: whitesmoke;
+}
