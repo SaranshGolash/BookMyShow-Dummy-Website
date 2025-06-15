@@ -405,7 +405,7 @@ body {
 }
 
 .below-top-footer-part {
-  background-color: #818181;
+  background-color: rgb(153, 153, 153);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -475,4 +475,70 @@ body {
 
 .footer-body > div > p > a:hover {
   color: whitesmoke;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.footer-bottom > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.footer-bottom > div > img {
+  width: 125px;
+  height: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+.footer-bottom > div > hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #818181;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-socials > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
+
+.footer-socials > div > img {
+  width: 30px;
+  height: 30px;
+}
+
+#instagram-logo {
+  width: 40px;
+  height: 40px;
+}
+
+#x-logo {
+  height: 25px;
+}
+
+#youtube-logo {
+  width: 45px;
+  height: 45px;
+}
+
+#pintrest-logo {
+  width: 35px;
+  height: 35px;
 }
