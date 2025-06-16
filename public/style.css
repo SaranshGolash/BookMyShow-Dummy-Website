@@ -59,6 +59,10 @@ body {
     color: whitesmoke;
 }
 
+#sign-in:hover {
+  cursor: pointer;
+}
+
 #sidenav-open {
     border: none;
     margin: none;
@@ -437,6 +441,10 @@ body {
   font-size: 14px;
 }
 
+#contactBtn:hover {
+  cursor: pointer;
+}
+
 .below-top-footer-part {
   background-color: rgb(153, 153, 153);
   display: flex;
@@ -452,6 +460,9 @@ body {
   align-items: center;
   flex-flow: column nowrap;
   width: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 
 .below-top-footer-part > div > img {
@@ -459,6 +470,12 @@ body {
   height: 50px;
 }
 
+.below-top-footer-part > div:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  color: whitesmoke;
+}
 
 #customer-care {
   padding-left: 200px;
