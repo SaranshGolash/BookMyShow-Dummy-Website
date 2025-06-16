@@ -167,6 +167,10 @@ body {
   height: 300px;
 }
 
+.slideshow-container > .mySlides:hover {
+  cursor: pointer;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -241,6 +245,12 @@ body {
   color: rgb(241, 60, 60);
 }
 
+.card > img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
 /* Movie-poster styling */
 
 .card {
@@ -263,9 +273,20 @@ body {
   border: 0px;
 }
 
+.card > .movie-name > a {
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
+}
+
 .card > p {
   margin: 0px;
   border: 0px;
+  font-size: 14px;
+}
+
+.card > a {
+  text-decoration: none;
 }
 
 .movie-section {
@@ -325,6 +346,12 @@ body {
   border: 0px;
 }
 
+.card > .premiere-name > a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
 /* Music section styling */
 
 .music-card {
@@ -356,6 +383,12 @@ body {
   padding: 0px;
   margin: 0px;
   border: 0px;
+}
+
+.card > .music-name > a {
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
 }
 
 /* Footer styling */
