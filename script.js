@@ -19,6 +19,12 @@ app.get('/', async (req, res) => {
     res.render('index');
 });
 
+// Sign in page route
+
+app.get('/signup', async (req, res) => {
+    res.render('signup');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port http://localhost:${port}`);
 });
