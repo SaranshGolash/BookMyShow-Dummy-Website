@@ -38,6 +38,10 @@ body {
     height: 50px;
 }
 
+.top-Navbar-elements > img:hover {
+    cursor: pointer;;
+}
+
 .top-Navbar-elements > input {
     width: 600px;
     border: none;
