@@ -211,6 +211,40 @@ body {
   top: 0;
 }
 
+/* Movie Body Section styling */
+
+.movie-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.movies-body-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.movies-body-element > h2 {
+    font-size: 24px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.movies-body-element > p {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Footer styling */
 
 .footer-section {
