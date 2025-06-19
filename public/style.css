@@ -272,10 +272,6 @@ body {
 }
 
 .movie-name {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-flow: column nowrap;
   padding: 0px;
   margin: 0px;
   border: 0px;
@@ -346,10 +342,6 @@ body {
 
 .premiere-name {
   color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-flow: column nowrap;
   padding: 0px;
   margin: 0px;
   border: 0px;
@@ -386,10 +378,6 @@ body {
 }
 
 .music-name {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-flow: column nowrap;
   padding: 0px;
   margin: 0px;
   border: 0px;
