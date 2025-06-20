@@ -239,6 +239,18 @@ body {
   align-items: start;
   flex-flow: row nowrap;
   width: 968px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.premiere-div1 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-flow: row nowrap;
+    width: 1168px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
 }
 
 .card-heading > .card-heading-div2 {
