@@ -31,6 +31,12 @@ app.get('/movies', async (req, res) => {
     res.render('movies');
 });
 
+// Stream page route
+
+app.get('/stream', async (req, res) => {
+    res.render('stream');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port http://localhost:${port}`);
 });
