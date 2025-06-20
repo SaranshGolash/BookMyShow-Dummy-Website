@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+        <title>Movie Tickets, Plays, Sports, Events & Cinemas near Kolkata</title>
+        <link rel="stylesheet" href="/public/stream.css"/>
+    </head>
+    <body>
+        <section class="main-body">
+
+        <!-- Top Navbar Section -->
+
+            <section class="top-Navbar">
+                <div class="top-Navbar-elements">
+                    <img src="/public/images/bookmyshow.png" alt="bookmyshow logo" onclick="window.location.href='/'">
+                    <input type="text" placeholder="Search for movies, events, plays, sports and activities">
+                    <label for="location"></label>
+                    <select name="location" id="location">
+                        <option value="kolkata">Kolkata</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="banglore">Banglore</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="delhi">Delhi</option>
+                    </select>
+                    <button id="sign-in" onclick="window.location.href='/signup'">Sign Up</button>
+
+                    <div class="w3-main" style="margin-right:200px">
+                        <div class="w3-teal">
+                            <button class="w3-button w3-teal w3-xlarge w3-right w3-hide-large"
+                            id="sidenav-open" onclick="w3_open()">&#9776;</button>
+                        </div>
+                    </div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="w3_close()">&times;</a>
+                        <a href="#">Notifications</a>
+                        <a href="#">Your orders</a>
+                        <a href="#">Account Settings</a>
+                        <a href="#">Help & Support</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Secondary Navbar section -->
+
+            <section class="secondary-Navbar">
+                <div class="secondary-Navbar-elements">
+                    <div>
+                        <a href="/movies">Movies</a>
+                        <a href="#">Stream</a>
+                        <a href="#">Events</a>
+                        <a href="#">Play</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Activities</a>
+                    </div>
+                    <div>
+                        <a href="#">ListYourShows</a>
+                        <a href="#">Corporates</a>
+                        <a href="#">Offers</a>
+                        <a href="#">Gift Cards</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Carousel Section -->
+
+            <section class="carousel">
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                  <div class="numbertext">1 / 2</div>
+                  <img src="/public/images/carousel1.jpeg" style="width:100%" id="carousel1">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">2 / 2</div>
+                  <img src="/public/images/carousel2.jpeg" style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+            </section>
+
+            <!-- Movie Section -->
+
+            <section class="movie-card">
+              <div class="card-heading">
+                <div class="card-heading-div1"><h2>Premiere of the week</h2></div>
+              </div>
+              <section class="movie-section">
+                <div class="card">
+                <img src="/public/images/premiere-poster1.jpeg" alt="Darkness Descends movie poster" style="width:100%">
+                <h3 class="movie-name"><a href="#">Darkness Descends</a></h3>
+                <p><i><a href="#" style="font-size: 14px;">Drama/Thriller</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster2.png" alt="Eagle movie poster" style="width:100%">
+                <h3 class="movie-name"><a href="#">Eagle</a></h3>
+                <p><i><a href="#" style="font-size: 14px;">Action/Thriller</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster3.jpg" alt="Hanuman movie poster" style="width:100%">
+                <h3 class="movie-name"><a href="#">Hanuman</a></h3>
+                <p><i><a href="#" style="font-size: 14px;">Action/Fiction</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster4.png" alt="Eleven movie poster" style="width:100%">
+                <h3 class="movie-name"><a href="#">Eleven</a></h3>
+                <p><i><a href="#" style="font-size: 14px;">Drama/Thriller</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster5.jpg" alt="Pottel movie poster" style="width:100%">
+                <h3 class="movie-name"><a href="#">Pottel</a></h3>
+                <p><i><a href="#" style="font-size: 14px;">Drama/Thriller</a></i></p>
+              </div>
+              </section>
+            </section>
+
+            <!-- Premiere Section -->
+
+            <section class="premiere">
+              <section class="movie-card">
+                <div class="premiere-heading">
+                  <img src="/public/images/premiere-play.png" alt="premiere-play">
+                  <h2 class="premiere-text">PREMIERE<br><p>Watch new movies at home, every Friday</p></h2>
+                </div>
+              <div class="card-heading">
+                <div class="card-heading-div1"><h2 class="premiere-text">Premieres<br><p>Brand new releases Friday</p></h2></div>
+                <div class="card-heading-div2"><a href="#">See All ></a></div>
+              </div>
+              <section class="movie-section">
+                <div class="card">
+                <img src="/public/images/premiere-poster1.jpeg" alt="Padmavat premiere" style="width:100%">
+                <h3 class="premiere-name"><a href="#">Padmavat</a></h3>
+                <p style="color: whitesmoke;"><i><a href="#" style="font-size: 14px; color: whitesmoke;">Hindi</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster2.png" alt="Batshorik premiere" style="width:100%">
+                <h3 class="premiere-name"><a href="#">Batshorik</a></h3>
+                <p style="color: whitesmoke;"><i><a href="#" style="font-size: 14px; color: whitesmoke;">Bengali</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster3.jpg" alt="PS-1 premiere" style="width:100%">
+                <h3 class="premiere-name"><a href="#">PS-1</a></h3>
+                <p style="color: whitesmoke;"><i><a href="#" style="font-size: 14px; color: whitesmoke;">Telegu</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster4.png" alt="Vettaiyan premiere" style="width:100%">
+                <h3 class="premiere-name"><a href="#">Vettaiyan</a></h3>
+                <p style="color: whitesmoke;"><i><a href="#" style="font-size: 14px; color: whitesmoke;">Tamil</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/premiere-poster5.jpg" alt="The Explosion premiere" style="width:100%">
+                <h3 class="premiere-name"><a href="#">The Explosion</a></h3>
+                <p style="color: whitesmoke;"><i><a href="#" style="font-size: 14px; color: whitesmoke;">English</a></i></p>
+              </div>
+              </section>
+            </section>
+            </section>
+
+            <!-- Music Section -->
+             
+            <section class="music-card">
+              <div class="card-heading">
+                <div class="card-heading-div1"><h2>Your Music Studio</h2></div>
+                <div class="card-heading-div2"><a href="#">See All ></a></div>
+              </div>
+              <section class="music-section">
+                <div class="card">
+                <img src="/public/images/music-poster1.png" alt="CHORUSGON BANDRA music concert" style="width:100%">
+                <h3 class="music-name"><a href="#">CHORUSGON BANDRA</a></h3>
+                <p><a href="#" style="font-size: 14px;">Kala Mandir Auditorium:</a></p>
+                <p><a href="#" style="font-size: 14px;">Kolkata</a></p>
+                <p><i><a href="#" style="font-size: 14px;">Concerts</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/music-poster2.jpeg" alt="Arijit India Tour music concert" style="width:100%">
+                <h3 class="music-name"><a href="#">Arijit India Tour</a></h3>
+                <p><a href="#" style="font-size: 14px;">Balewadi:</a></p>
+                <p><a href="#" style="font-size: 14px;">Pune</a></p>
+                <p><i><a href="#" style="font-size: 14px;">Concerts</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/music-poster3.png" alt="Coldplay : Music of Spheres music concert" style="width:100%">
+                <h3 class="music-name"><a href="#">Coldplay : Music of Spheres</a></h3>
+                <p><a href="#" style="font-size: 14px;">Narendra Modi Stadium:</a></p>
+                <p><a href="#" style="font-size: 14px;">Ahmedabad</a></p>
+                <p><i><a href="#" style="font-size: 14px;">Concerts</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/music-poster4.jpeg" alt="Sonu Nigam Live music concert" style="width:100%">
+                <h3 class="music-name"><a href="#">Sonu Nigam Live</a></h3>
+                <p><a href="#" style="font-size: 14px;">Navi Mumbai Sports Complex:</a></p>
+                <p><a href="#" style="font-size: 14px;">Mumbai</a></p>
+                <p><i><a href="#" style="font-size: 14px;">Concerts</a></i></p>
+              </div>
+              <div class="card">
+                <img src="/public/images/music-poster5.png" alt="2FORTY2 LIVE GAMPAHA music concert" style="width:100%">
+                <h3 class="music-name"><a href="#">2FORTY2 LIVE GAMPAHA</a></h3>
+                <p><a href="#" style="font-size: 14px;">Lakeside Gampaha:</a></p>
+                <p><a href="#" style="font-size: 14px;">Haryana</a></p>
+                <p><i><a href="#" style="font-size: 14px;">Concerts</a></i></p>
+              </div>
+              </section>
+            </section>
+        </section>
+
+        <!-- Footer Section -->
+
+        <section class="footer-section">
+          <div class="footer-elements">
+            <div class="top-footer-part">
+              <h4>List your show</h4>
+              <p>Got a show,activity or a fun experience? Partner with us & get listed on BookMyShow</p>
+              <button id="contactBtn">Contact Today!</button>
+            </div>
+            <div class="below-top-footer-part">
+              <div id="customer-care">
+                <img src="/public/images/customer-care.png" alt="customer care">
+                <h6>24/7 CUSTOMER CARE</h6>
+              </div>
+              <div id="ticket-confirmation">
+                <img src="/public/images/ticket-confirmation.png" alt="ticket-confirmation">
+                <h6>RESEND BOOKING CONFIRMATION</h6>
+              </div>
+              <div id="newsetter">
+                <img src="/public/images/newsetter.png" alt="newsetter">
+                <h6>SUBSCRIBE TO THE NEWSETTER</h6>
+              </div>
+            </div>
+            <div class="footer-body">
+              <div>
+                <h5>MOVIES NOW SHOWING IN KOLKATA</h5>
+                <p><a href="#">Darkness Descends</a> | <a href="#">Eagle</a> | <a href="#">Pottel</a> | <a href="#">Vettaiyan</a> | <a href="#">Eleven</a> | <a href="#">Hanuman</a></p>
+              </div>
+              <div>
+                <h5>UPCOMING MOVIES IN KOLKATA</h5>
+                <p><a href="#">Houseful 5</a> | <a href="#">Final Destination: Bloodlines</a> | <a href="#">The Conjuring: Last Rites</a> | <a href="#">Spiderman Brand New Day</a> | <a href="#">Avengers Doomsday</a></p>
+              </div>
+              <div>
+                <h5>MOVIES BY GENRE</h5>
+                <p><a href="#">Action</a> | <a href="#">Romance</a> | <a href="#">Adventure</a> | <a href="#">Thriller</a> | <a href="#">Drama</a> | <a href="#">Horror</a> | <a href="#">Comedy</a></p>
+              </div>
+              <div>
+                <h5>EVENTS IN TOP CITIES</h5>
+                <p><a href="#">Events in Delhi-NCR</a> | <a href="#">Events in Mumbai</a> | <a href="#">Events in Kolkata</a> | <a href="#">Events in Banglore</a> | <a href="#">Events in Goa</a> | <a href="#">Events in Hyderabad</a></p>
+              </div>
+              <div>
+                <h5>HELP</h5>
+                <p><a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Current Opening</a> | <a href="#">Press Release</a> | <a href="#">Press Coverage</a> | <a href="#">FAQs</a> | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+              </div>
+              <div>
+                <h5>BOOKMYSHOW EXCLUSIVES</h5>
+                <p><a href="#">Lollapalooza India</a> | <a href="#">BookAChange</a> | <a href="#">Coporate Vouchers</a> | <a href="#">Gift Cards</a> | <a href="#">List My shows</a> | <a href="#">Offers</a> | <a href="#">Streams</a></p>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div>
+                <hr><img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="bookmyshow logo"><hr>
+              </div>
+            </div>
+            <div class="footer-socials">
+              <div>
+                <img src="/public/images/footerlogo1.png" alt="facebook logo">
+                <img src="/public/images/footerlogo2.png" alt="instagram logo" id="instagram-logo">
+                <img src="/public/images/footerlogo3.png" alt="X logo" id="x-logo">
+                <img src="/public/images/footerlogo5.png" alt="Youtube logo" id="youtube-logo">
+                <img src="/public/images/footerlogo4.png" alt="Pintrest logo" id="pintrest-logo">
+              </div>
+            </div>
+          </div>
+        </section>
+        <script src="/script.js"></script>
+        <script>
+            function w3_open() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    const slides = document.getElementsByClassName("mySlides");
+    const dots = document.getElementsByClassName("dot");
+    if (n > slides.length) slideIndex = 1;
+    if (n < 1) slideIndex = slides.length;
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
+    </body>
+</html>
