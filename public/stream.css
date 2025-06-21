@@ -230,7 +230,25 @@ body {
 .card-heading {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  flex-flow: column nowrap;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-heading > div , h2 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+}
+
+.card-heading > div > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,0.8);
 }
 
 .card-heading > .card-heading-div1 {
@@ -251,6 +269,18 @@ body {
     width: 1168px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
+}
+
+.exclusive-div {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 70%;
+}
+
+.exclusive-div > a {
+  text-decoration: none;
+  color: rgb(241, 60, 60);
 }
 
 .card-heading > .card-heading-div2 {
